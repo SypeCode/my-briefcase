@@ -1,0 +1,33 @@
+#skills {
+    padding: 3%;
+    background-color: white;
+}
+
+#skills__container {
+    border-radius: 10px;
+}
+
+#enlace {
+    text-decoration: none;
+}
+
+#foto_idioma {
+    width: 50%;
+}
+
+#foto_tecnologias {
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    #skills {
+        padding: 5%;
+        margin-top: 15%;
+    }
+    #foto_idioma {
+        width: 100%;
+    }
+    #foto_tecnologias {
+        width: 100%;
+    }
+}

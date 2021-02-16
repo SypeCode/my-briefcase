@@ -3,18 +3,18 @@ import '../assets/styles/Menu.css'
 
 const Menu = () => {
   return (
-    <nav id="menu" className="navbar navbar-expand-md navbar-dark px-4 mb-5">
-      <a href="/" className="navbar-brand w-50 font-weight-bold">Kevin Castillo</a>
+    <nav id="menu" className="navbar navbar-expand-md navbar-dark px-5 py-0 mb-5">
+      <a id="menu__bienvenido" href="/" className="p-3">Mi Portafolio</a>
       <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarCollapse">
-        <div className="navbar-nav">
-          <a href="#" className="nav-item nav-link mx-4">Acerca de mí</a>
-          <a href="/Skills" className="nav-item nav-link mx-4">Aptitudes Técnicas</a>
-          <a href="#" className="nav-item nav-link mx-4">Proyectos</a>
-          <a href="#" className="nav-item nav-link mx-4">Contacto</a>
+      <div className="collapse navbar-collapse justify-content-end py-0" id="navbarCollapse">
+        <div className="navbar-nav py-0">
+          <a id="menu__item" href="#about" className="p-3">Acerca de mí</a>
+          <a id="menu__item" href="#skills" className="p-3">Habilidades Técnicas</a>
+          <a id="menu__item" href="#projects" className="p-3">Proyectos</a>
+          <a id="menu__item" href="#contact" className="p-3">Contacto</a>
         </div>
       </div>
     </nav>

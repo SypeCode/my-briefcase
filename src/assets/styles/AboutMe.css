@@ -1,3 +1,32 @@
-body {
-    background-color: #e8f9e9;
+#about {
+    padding: 3%;
+}
+
+#about__container {
+    border-radius: 10px;
+}
+
+#enlace {
+    text-decoration: none;
+}
+
+#button_a {
+    background-color: #272929;
+    color: #f0eaea;
+}
+
+#button_a:hover {
+    background-color: #FF552B;
+    color: #f0eaea;
+}
+
+#button_a:active {
+    color: #f0eaea;
+}
+
+@media only screen and (max-width: 600px) {
+    #about {
+        padding: 5%;
+        margin-top: 15%;
+    }
 }

@@ -1,5 +1,9 @@
 #footer {
-    background-color: #024249;
-    position: absolute;
+    background-color: #272929;
+    position: relative;
     bottom: 0;
+}
+
+h6 {
+    color: #ffffff;
 }

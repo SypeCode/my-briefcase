@@ -1,0 +1,22 @@
+#projects {
+    padding: 3%;
+}
+
+#projects__container {
+    border-radius: 10px;
+}
+
+#enlace {
+    text-decoration: none;
+}
+
+#projects__container--col {
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #projects {
+        padding: 5%;
+        margin-top: 15%;
+    }
+}
