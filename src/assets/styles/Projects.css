@@ -14,9 +14,44 @@
     border-radius: 10px;
 }
 
+#container__projects {
+    height: 200px;
+}
+
+#projects__img {
+    background-color: black;
+    height: 180px;
+    max-height: 180px;
+}
+
+#projects__img--b {
+    background-color: white;
+    height: 180px;
+    max-height: 180px;
+}
+
+#enlace_title {
+    color: #272929;
+    text-decoration: none;
+}
+
+#enlace_title:hover {
+    color: #FF552B;
+}
+
 @media only screen and (max-width: 600px) {
     #projects {
         padding: 5%;
         margin-top: 15%;
+    }
+    #projects__img {
+        background-color: black;
+        width: 80px;
+    }
+    
+    #projects__img--b {
+        background-color: white;
+        max-width: 100%;
+        max-height: 100%;
     }
 }
