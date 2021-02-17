@@ -5,7 +5,7 @@ import '../assets/styles/AboutMe.css'
 const AboutMe = () => {
     return (
         <>
-            <section id="about" class="animado" >
+            <section id="about" className="animado" >
                 <div id="about__container" className="container-fluid shadow bg-body border h-100">
                     <div className="row pt-4 border border-bottom-3">
                         <div className="col-12 p-4">
@@ -36,7 +36,7 @@ const AboutMe = () => {
                             tengo conocimientos en HTML5, CSS3, JavaScript, React JS, PHP, WordPress,
                             MySQL y también diferentes temas y frameworks de estos mismos.
                                     </p>
-                            <a href="https://drive.google.com/file/d/1jUUvkKgQ3gZ0OxGUKy26x4mDqA5pgRtE/view?usp=sharing" class="btn px-4 py-1" id="button_a" role="button" target="_blank" data-bs-toggle="button">CV</a>
+                            <a href="https://drive.google.com/file/d/1jUUvkKgQ3gZ0OxGUKy26x4mDqA5pgRtE/view?usp=sharing" className="btn px-4 py-1" id="button_a" role="button" target="_blank" data-bs-toggle="button">CV</a>
                         </div>
                     </div>
                 </div>

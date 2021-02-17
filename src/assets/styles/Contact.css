@@ -11,6 +11,10 @@
     text-decoration: none;
 }
 
+#email {
+    color: #272929;
+}
+
 @media only screen and (max-width: 600px) {
     #contact {
         padding: 5%;
