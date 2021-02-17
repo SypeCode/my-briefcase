@@ -11,8 +11,17 @@
     text-decoration: none;
 }
 
-#email {
+#contact__email {
     color: #272929;
+    font-weight: bold;
+}
+
+#icon {
+    width: 8%;
+}
+
+#icon__rs {
+    width: 15%;
 }
 
 @media only screen and (max-width: 600px) {
