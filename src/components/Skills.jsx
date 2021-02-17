@@ -24,7 +24,7 @@ const Skills = () => {
                                 <h4 className="font-weight-bold text-center my-3">Aptitudes</h4>
                                 <h6 className="text-dark text-center">Organización</h6>
                                 <h6 className="text-dark text-center">Gestión del tiempo</h6>
-                                <h6 className="text-dark text-center">Aprendizaje rapido</h6>
+                                <h6 className="text-dark text-center">Aprendizaje rápido</h6>
                                 <h6 className="text-dark text-center">trabajo en equipo</h6>
                                 <h6 className="text-dark text-center">Motivación</h6>
                                 <h6 className="text-dark text-center">Confiabilidad</h6>
@@ -37,7 +37,7 @@ const Skills = () => {
                         <img id="foto_idioma" src={idiomas} className="img-thumbnail rounded-circle mb-3" />
                         <h4 className="font-weight-bold text-center my-3">Idiomas</h4>
                         <h6 className="text-dark">Español - Nativo</h6>
-                        <h6 className="text-dark">Ingles - Básico</h6>
+                        <h6 className="text-dark">Inglés - Básico</h6>
                     </div>
                     <div className="col-12 p-4 border d-flex lign-items-center">
                         <div class="row">
@@ -45,7 +45,7 @@ const Skills = () => {
                                 <img id="foto_tecnologias" src={tecnologias} className="img-thumbnail rounded-circle mb-3" />
                             </div>
                             <div class="col-lg-4 col-sm-6">
-                                <h4 className="font-weight-bold text-center my-3">Tecnologias</h4>
+                                <h4 className="font-weight-bold text-center my-3">Tecnologías</h4>
                                 <h6 className="text-dark text-center">HTML5</h6>
                                 <h6 className="text-dark text-center">CSS3</h6>
                                 <h6 className="text-dark text-center">JavaScript</h6>
