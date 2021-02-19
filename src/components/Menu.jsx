@@ -4,7 +4,7 @@ import '../assets/styles/Menu.css'
 const Menu = () => {
   return (
     <nav id="menu" className="navbar navbar-expand-md navbar-dark px-5 py-0 mb-5">
-      <a id="menu__bienvenido" href="/" className="p-3">Mi Portafolio</a>
+      <a id="menu__bienvenido" href="https://kevcastillo19.github.io/my-briefcase/" className="p-3">Mi Portafolio</a>
       <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span className="navbar-toggler-icon"></span>
       </button>
