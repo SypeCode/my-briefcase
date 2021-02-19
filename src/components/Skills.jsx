@@ -1,10 +1,13 @@
 import React from 'react'
+import gsap from "gsap" ; 
 import '../assets/styles/Skills.css'
 import aptitudes from '../assets/static/aptitudes.png'
 import idiomas from '../assets/static/idiomas.png'
 import tecnologias from '../assets/static/tecnologias.png'
 
 const Skills = () => {
+    gsap.from("#skills", {opacity: 0});
+    gsap.to("#skills", {opacity: 1, duration: 1});
     return (
         <section id="skills" className="animado" >
             <div id="skills__container" className="container-fluid shadow bg-body border h-100">

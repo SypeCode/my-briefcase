@@ -54,12 +54,12 @@ const Projects = () => {
                                 <div className="col-lg-4 col-md-4 col-sm-12 p-0">
                                     <a id="enlace_img" target="_blank" href="https://login-iwfashion.web.app/home"><img id="projects__img--b" src={iw} className="img-thumbnail rounded w-100 h-100 border" /></a>
                                 </div>
-                                <div className="col-lg-8 col-md-8 col-sm-12 py-1 px-3 d-flex flex-column justify-content-center">
+                                <div className="col-lg-8 col-md-8 col-sm-12 pt-2 px-3 d-flex flex-column justify-content-center">
                                     <a id="enlace_title" target="_blank" href="https://login-iwfashion.web.app/home"><h4>IW of Fashion</h4></a>
                                     <p>
-                                        Colabore en este proyecto cuarto año de Ingeniería en Ciencias de la Computación para la
-                                        materia Desarrollo de Software Multiplataforma, utilizando Angular JS Versión 9 y Bootstrap
-                                        del lado del frontend
+                                        Colabore en este proyecto en cuarto año de Ingeniería en Ciencias de la Computación para la
+                                        materia Desarrollo de Software Multiplataforma, utilizando del lado del frontend 
+                                        Angular JS Versión 9 y Bootstrap
                                     </p>
                                 </div>
                             </div>

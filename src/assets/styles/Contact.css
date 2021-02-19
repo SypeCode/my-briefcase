@@ -17,16 +17,34 @@
 }
 
 #icon {
-    width: 8%;
+    width: 7%;
 }
 
 #icon__rs {
-    width: 15%;
+    width: 10%;
+    border-radius: 20px;
+    background-color: #f0eaea;
 }
+#icon__rs:hover {
+    background-color: #FF552B;
+}
+
+/*#submit {
+    background-color: #272929;
+    color: #f0eaea;
+}
+
+#submit:hover {
+    background-color: #FF552B;
+    color: #f0eaea;
+}*/
 
 @media only screen and (max-width: 600px) {
     #contact {
         padding: 5%;
         margin-top: 15%;
+    }
+    #icon__rs {
+        width: 20%;
     }
 }

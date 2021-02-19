@@ -17,8 +17,12 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="row p-5">
-                        <div className="col-lg-6 col-sm-12 p-4 border">
-                            <h5>Envíame un correo</h5>
+                        <div className="col-lg-4 col-sm-6 p-4 border">
+                            <h5 className="mb-3">Ubicación:</h5>
+                            <img src={ubicacion} id="icon" className="img-fluid float-left mr-2" /><p>San Salvador, El Salvador</p>
+                            <h5 className="mb-3 mt-5">Teléfono:</h5>
+                            <img src={wp} id="icon" className="img-fluid float-left mr-2" /><p>+503 72079915</p>
+                            {/* <h5>Envíame un correo</h5>
                             <form className="form mt-4">
                                 <div className="input-group mb-3 w-100">
                                     <span className="input-group-text">Nombre</span>
@@ -30,27 +34,26 @@ const Contact = () => {
                                 </div>
                                 <div className="input-group mb-3 w-100">
                                     <span className="input-group-text">Asunto</span>
-                                    <input type="type" className="form-control" id="asunto" placeholder="Asunto" />
+                                    <input type="text" className="form-control" id="asunto" placeholder="Asunto" />
                                 </div>
                                 <div className="input-group mb-3 w-100">
                                     <span className="input-group-text">Asunto</span>
                                     <textarea className="form-control"></textarea>
                                 </div>
-                            </form>
+                                <div className="input-group">
+                                    <input type="submit" className="form-control" id="submit" value="Enviar" />
+                                </div>
+                            </form> */}
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 p-4 border font-weight-bold">
-                            <h5 className="mb-3">Ubicación:</h5>
-                            <img src={ubicacion} id="icon" className="img-fluid float-left mr-2" /><p>San Salvador, El Salvador</p>
+                        <div className="col-lg-4 col-md-6 col-sm-12 p-4 border font-weight-bold">
                             <h5 className="mb-3">Email:</h5>
                             <p id="contact__email">Profesional:</p>
                             <img src={gmail} id="icon" className="img-fluid float-left mr-2" /><p>kevincastillo.jh@gmail.com</p>
                             <p id="contact__email">Personal:</p>
                             <img src={gmail} id="icon" className="img-fluid float-left mr-2" /><p>sypecr@gmail.com</p>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 p-4 border font-weight-bold">
-                            <h5 className="mb-3">Teléfono:</h5>
-                            <img src={wp} id="icon" className="img-fluid float-left mr-2" /><p>+503 72079915</p>
-                            <h5 className="my-3">Redes Sociales:</h5>
+                        <div className="col-lg-4 col-md-12 col-sm-12 p-4 border font-weight-bold">
+                            <h5 className="mb-3">Redes Sociales:</h5>
                             <a id="enlace_title" target="_blank" href="https://github.com/kevCastillo19"><img src={github} id="icon__rs" className="img-fluid float-left mr-2" /></a>
                             <a id="enlace_title" target="_blank" href="https://www.linkedin.com/in/kevcastillo/"><img src={linkedin} id="icon__rs" className="img-fluid float-left mr-2" /></a>
                         </div>
